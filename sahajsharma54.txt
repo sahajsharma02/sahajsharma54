@@ -1,3 +1,29 @@
+Introduction of DBMS (Database Management System) 
+A Database Management System (DBMS) is a software system that is designed to manage and organize data in a structured manner. It allows users to create, modify, and query a database, as well as manage the security and access controls for that database.
+
+DBMS provides an environment to store and retrieve the data in coinvent and efficient manner.
+
+Key Features of DBMS
+Data modeling: A DBMS provides tools for creating and modifying data models, which define the structure and relationships of the data in a database.
+Data storage and retrieval: A DBMS is responsible for storing and retrieving data from the database, and can provide various methods for searching and querying the data.
+Concurrency control: A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other.
+Data integrity and security: A DBMS provides tools for enforcing data integrity and security constraints, such as constraints on the values of data and access controls that restrict who can access the data.
+Backup and recovery: A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure.
+DBMS can be classified into two types: Relational Database Management System (RDBMS) and Non-Relational Database Management System (NoSQL or Non-SQL)
+RDBMS: Data is organized in the form of tables and each table has a set of rows and columns. The data are related to each other through primary and foreign keys.
+NoSQL: Data is organized in the form of key-value pairs, documents, graphs, or column-based. These are designed to handle large-scale, high-performance scenarios.
+A database is a collection of interrelated data which helps in the efficient retrieval, insertion, and deletion of data from the database and organizes the data in the form of tables, views, schemas, reports, etc. For Example, a university database organizes the data about students, faculty, admin staff, etc. which helps in the efficient retrieval, insertion, and deletion of data from it.
+
+Database Languages
+Data Definition Language
+Data Manipulation Language
+Data Control Language
+Transactional Control Language
+
+
+
+COMPARISION BETWEEN DBMS AND RDBMS
+
 DBMS	                                                           RDBMS
 DBMS stores data as file.	                                   RDBMS stores data in tabular form.
 Data elements need to access individually.	                   Multiple data elements can be accessed at the same time.
@@ -16,3 +42,113 @@ The data in a DBMS is subject to low security levels with          There exists 
  regards to data manipulation.	                                  
 Low software and hardware necessities.	                           Higher software and hardware necessities.
 Examples: XML, Window Registry, Forxpro, dbaseIIIplus etc.	   Examples: MySQL, PostgreSQL, SQL Server, Oracle, Microsoft Access etc.
+
+
+
+
+
+
+
+
+POPULAR DATA BASE MANADEMENT SOFTWARES
+MySQL
+MySQL is a free, open source relational database management system (RDBMS). It was initially owned by MySQL AB, before being acquired by Sun Microsystems (part of Oracle Corporation since 2010). MySQL was originally developed by Ulf Michael Widenius, Swedes David Axmark and Allan Larsson, founders of MySQL AB.
+
+Many database-driven web applications, such as WordPress, Joomla and phpBB, as well as many popular websites like MediaWiki, Twitter and Facebook, use MySQL.
+
+Developer: Oracle Corporation.
+
+Original author: MySQL AB.
+
+Latest MySQL release: MySQL 8.0.32.
+
+MySQL license: GNU General Public License version 2 and proprietary.
+
+MariaDB
+MariaDB is a community-developed, free and open source relational database management system. It is a fork of MySQL. MariaDB was originally developed by Ulf Michael Widenius, Swedes David Axmark and Allan Larsson, founders of MySQL AB and the MariaDB Foundation. Ulf Michael Widenius is the current lead developer and CTO of MariaDB.
+
+MariaDB is also included in numerous Linux distributions, such as CentOS, Debian and RHEL. Besides, it is used by many organizations such as Wikipedia, Google or Tumblr.
+
+Developer: MariaDB Corporation Ab and MariaDB Foundation. 
+
+Latest MariaDB release: MariaDB 11.1.0.
+
+MariaDB license: GPL version 2.
+
+Microsoft SQL Server
+Microsoft SQL Server is a commercial relational database management system. It is available in multiple editions, divided into three main categories: mainstream, specialized and discontinued editions.
+
+Developer: Microsoft.
+
+Latest Microsoft SQL Server release: Microsoft SQL Server 2022.
+
+Microsoft SQL Server license: proprietary license.
+
+Oracle DBMS
+Oracle DBMS is a commercial, multi-model database management system. It is also known as Oracle Database or just Oracle. It is commonly used for running: online transaction processing (OLTP) and data warehousing (DW).
+
+Developer: Oracle Corporation.
+
+Latest Oracle DBMS long-term release: Oracle DBMS 19c.
+
+Latest Oracle DBMS release: Oracle DBMS 23c beta.
+
+Oracle DBMS license: proprietary license.
+
+PostgreSQL
+PostgreSQL is a free, open source relational database management system (RDBMS). It was initially developed as a successor of the Ingres database, developed at the University of California, Berkeley.
+
+Developer: PostgreSQL Global Development Group.
+
+Latest PostgreSQL release: PostgreSQL 15.2.
+
+PostgreSQL license: PostgreSQL license.
+
+MongoDB
+MongoDB is an open source, NoSQL, document-oriented database management system. MongoDB Inc. offers an integrated suite of cloud database services, as well as commercial support. This document-oriented database software is commonly used for high-volume data storage.
+
+Developer: MongoDB Inc.
+
+Latest MongoDB release: MongoDB 6.0.4.
+
+MongoDB license: Server Side Public License (SSPL).
+
+Redis
+Redis, short for “Remote Dictionary Server”, is an open source, NoSQL, key-value database management system.
+
+Developer: Redis.
+
+Original author: Salvatore Sanfilippo.
+
+Latest Redis release: Redis 7.0.
+
+Redis license: BSD 3-clause.
+
+IBM DB2
+IBM DB2 is a database management product developed by IBM, formerly known as DB2 for Linux, UNIX and Windows.
+
+Developer: IBM.
+
+Latest IBM DB2 release: IBM DB2 11.5.8.
+
+IBM DB2 license: proprietary license.
+
+Elasticsearch
+Elasticsearch is a distributed, RESTful search and analytics engine. It is based on the Lucene library. Elasticsearch is the successor to a previous search engine called Compass, also designed by Shay Banon.
+
+Developer: Elastic NV.
+
+Original author: Shay Banon.
+
+Latest Elasticsearch release: Elasticsearch 8.7.
+
+Elasticsearch license: dual-licensed Elastic license and Server Side Public License.
+
+SQLite
+SQLite is a public domain database engine that belongs to the embedded, relational database management systems family. It has bindings to many programming languages.
+
+Developer: Dwayne Richard Hipp.
+
+Latest SQLite release: SQLite 3.41.2.
+
+SQLite license: Public domain.
